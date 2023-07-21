@@ -1,0 +1,177 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+    list-style: none;
+}
+/*header style open*/
+.navber{
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(241, 241, 241, 0.2), 0 6px 10px 0 rgba(255, 255, 255, 0.19);; 
+}
+.nav-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 1020px;
+    margin: auto;
+    padding: 18px 2px;
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.nav-logo p{
+    font-size: 28px;
+    font-weight: bolder;
+
+}
+.logo-name{
+    color: rgb(248, 89, 195);
+}
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.nav-list{
+    display: flex;
+    gap: 15px;
+}
+.nav-list li{
+    list-style: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+.nav-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 226, 231);
+    padding: 0px 16px;
+    border-radius: 8px;
+}
+.nav-icon p{
+    font-weight: 600;
+    font-size: 15px;
+}
+.youtube-icon{
+    width: 50px;
+    height: 50px;
+}
+.tiktok-icon{
+    width: 27px;
+    height: 27px;
+}
+/*banner open*/
+.banner{
+    background-image: url(./images/Group\ 14.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+}
+.banner-container{
+    display: flex;
+    width: 1020px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.banner-text h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.banner-text h2{
+    font-size: 62px;
+    font-weight: bold;
+    color:  #c937b1;
+}
+.banner-text li{
+    font-weight: 400;
+    line-height: 30px;
+}
+.banner-image img{
+    width: 550px;
+    height: 550px;
+    margin-bottom: 0px;
+}
+.btn{
+    border: 0;
+    border-radius: 30px;
+    padding: 15px 24px;
+    background-color: coral;
+    color: white;
+    font-weight: bold;
+}
+.btn-go{
+    border: 0;
+    border-radius: 30px;
+    padding: 15px 24px;
+    background-color: rgb(46, 240, 240);
+    margin-left: 14px;
+    color: white;
+    font-weight: bold;
+}
+/*
+about styles
+*/
+.about{
+    background-color: rgb(255, 255, 255);
+}
+.about-container{
+    width: 1020px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 5px;
+    gap: 20px;
+}
+.about-image img{
+    width: 600px;
+    height: 400px;
+}
+.about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+.about-text h2{
+    color: #c937b1;
+    text-align: end;
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+.about-text p{
+    text-align: end;
+    padding-bottom: 12px;
+    line-height: 28px;
+}
+.about-text h4{
+    padding-bottom: 14px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.about-p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-text h4{
+    font-weight: 400;
+}
+.about-text button{
+    padding: 14px 37px;
+}
